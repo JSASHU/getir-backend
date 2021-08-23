@@ -1,0 +1,42 @@
+{
+  "name": "getir-backend",
+  "version": "1.0.0",
+  "description": "getir-backend",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "NODE_ENV='development' node server.js",
+    "lint": "npx eslint . --ext .json,.js",
+    "lint:fix": "npx eslint . --ext .json,.js --fix",
+    "test:unit": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSASHU/getir-backend.git"
+  },
+  "author": "Ashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSASHU/getir-backend/issues"
+  },
+  "homepage": "https://github.com/JSASHU/getir-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-json": "^3.1.0",
+    "jest": "^27.0.6",
+    "jest-junit": "^12.2.0",
+    "nanoid": "^3.1.25"
+  },
+  "engines": {
+    "node": "14.13.x",
+    "npm": "6.14.x"
+  }
+}
